@@ -1,0 +1,36 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+tsconfig.tsbuildinfo
+
+# production
+/build
+
+# open-next / cloudflare
+.open-next/
+.wrangler/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files (WAJIB di-ignore agar kredensial tidak bocor ke git)
+.env*.local
+.env
