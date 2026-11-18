@@ -5,6 +5,8 @@ import {
   ADMIN_COOKIE_NAME,
 } from "@/lib/auth";
 
+export const dynamic = "force-dynamic";
+
 // In-memory rate limiting store for admin login
 interface RateLimitRecord {
   count: number;
